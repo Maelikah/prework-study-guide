@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -13,8 +14,10 @@
     </header>
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>     
+        <br/>
+        <h2>HTML</h2>             
         <h3>Enter your HTML notes here:</h3>
+        <br/>
           <ul>
             <li>The head element contains information about the webpage.</li>
             <li>The body element represents the visible content shown to the user.</li>
@@ -24,33 +27,58 @@
                 <li><b>ol : </b>For numbered lists </li>
                 <li><b>li : </b>To list each element of your list</li>
               </ul>
-            <li>There are several headings you can try by using <b>h1 to h6:</b></li>
+            <li>There are several headings you can try by using <b>h1 to h6 ilustrated below:</b></li>
               <ol>
-                <h1><li>This is the h1 heading</h1></li>
-                <h2><li>This is the h2 heading</h2></li>
-                <h3><li>This is the h3 heading</h3></li>
-                <h4><li>This is the h4 heading</h4></li>
-                <h5><li>This is the h5 heading</h5></li>
-                <h6><li>This is the h6 heading</h6></li>
+                <h1><li></h1></li>
+                <h2><li></h2></li>
+                <h3><li></h3></li>
+                <h4><li></h4></li>
+                <h5><li></h5></li>
+                <h6><li></h6></li>
               </ol>
             <li>To add breaks between lines use <b>"br"</b> </li>
             <li>Use <b>"a href"</b> to add links to your page</li>
           </ul>
+        <br/>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>     
         <h3>Enter your CSS notes here:</h3>
+        <br/>
           <ul>
-            <li>Note 1</li>
-            <li>Note 2</li>
-            <li>Note 3</li>
-          </ul>   
+            <li>There are threee ways to style a webpage using CCS:</li>
+              <ul>
+                <li><b>Inline CCS:</b> These styles apply to a specific HTML Tag and affects a particular page element only.</li>
+                <li><b>Internal CCS style sheet:</b> It's an embedded style sheet that contains CSS rules for the webpage in the head sectio of the HTML file.</li>
+                <li><b>External CCS style sheet:</b> Allows developers to keep all CSS rules in a separate file which makes design changes easier</li>
+                <ul>                  
+                  <li>A CCS Rule contains a <b>selector</b> and a <b>declaration block.</b></li>
+                    <ul>
+                      <li><b>Selector:</b> It defines the element or attributes to which the rules or declarations will apply.</li>
+                      <li><b>Declarations:</b> They contain two components, the <b>CCS Property</b>we want to apply and the <b>value</b> of that property</li>
+                      <li><b><i>Example:</i></b> "div {color: black};"</li> 
+                    </ul>
+                  <li>To add an external CSS stylesheet to your html page the following code needs to be added in the header section between < >:
+                    <ul>
+                      <li>link rel="stylesheet" href="./folder/file.css"</li>
+                      <li><b>Link:</b> Creates the conennection to the external file</li>
+                      <li><b>rel:</b> Specifies the relationship between the current document and the linked document resource</li>
+                      <li><b>href:</b> Specifies the URL of the external resource, to locate the actual file, we add the assets folder/file</li>
+                    </ul>
+                  <li>A <b>Class Attribute</b> can be used as a selector. They allow to share CCS rules to any element by assigning the rule to a class attribute with a class selector</li>
+                  </li>
+                </ul>
+              </ul>           
+          </ul>
+        <br/>   
       </section>
+      <br/>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <h3>Enter your Git notes here:</h3>
+        <br/>
           <ul>
             <li><b>Git status:</b> Checks what branch we are currently on</li>
             <li><b>Git checkout + branch name:</b> Switches you to that branch</li>
@@ -72,23 +100,30 @@
                 <li><b>Origin:</b> Indicates the source of the push will be in the local environment</li>
                 <li><b>Branch Name:</b> The name of the branch we are sending data from the local environment to GitHub repository</li>
               </ul>
-          </ul>  
+          </ul>
+        <br/>  
       </section>
+      <br/>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>     
         <h3>Enter your JavaScript notes here:</h3>
+        <br/>
           <ul>
             <li>Note 1</li>
             <li>Note 2</li>
             <li>Note 3</li>
-          </ul>   
+          </ul>
+        <br/>
       </section>
       <br/>
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p>
+      <br/>
+        I can code!
+      </p>
     </footer>
   </body>
 </html>
