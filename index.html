@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">    
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -50,7 +51,7 @@
             <li>There are threee ways to style a webpage using CCS:</li>
               <ul>
                 <li><b>Inline CCS:</b> These styles apply to a specific HTML Tag and affects a particular page element only.</li>
-                <li><b>Internal CCS style sheet:</b> It's an embedded style sheet that contains CSS rules for the webpage in the head sectio of the HTML file.</li>
+                <li><b>Internal CCS style sheet:</b> It's an embedded style sheet that contains CSS rules for the webpage in the head section of the HTML file.</li>
                 <li><b>External CCS style sheet:</b> Allows developers to keep all CSS rules in a separate file which makes design changes easier</li>
                 <ul>                  
                   <li>A CCS Rule contains a <b>selector</b> and a <b>declaration block.</b></li>
@@ -59,7 +60,7 @@
                       <li><b>Declarations:</b> They contain two components, the <b>CCS Property</b>we want to apply and the <b>value</b> of that property</li>
                       <li><b><i>Example:</i></b> "div {color: black};"</li> 
                     </ul>
-                  <li>To add an external CSS stylesheet to your html page the following code needs to be added in the header section between < >:
+                  <li>To add an external CSS stylesheet to your html page the following code needs to be added in the head section between < >:
                     <ul>
                       <li>link rel="stylesheet" href="./folder/file.css"</li>
                       <li><b>Link:</b> Creates the conennection to the external file</li>
@@ -110,20 +111,31 @@
         <h3>Enter your JavaScript notes here:</h3>
         <br/>
           <ul>
-            <li>Note 1</li>
-            <li>Note 2</li>
-            <li>Note 3</li>
+            <li>A <b>variable</b> is a named container that allows us to store data in our code. Use <b>var</b> to declare a variable using JavaScript.</li>
+            <li>To link a JavaScript File to an HTML page, a link must be created in the footer section between < > a closure command needs to be added as well:</li>
+              <ul>
+                <li>script src=".assets/script.js" /script</li>
+              </ul>
+            <li>If Statements in JavaScript are: if (condition) {// block of code to be executed if condition is truthy}</li>
+            <li>The strict equality operation is === </li>
+            <li>An <b>array [ ]</b> is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+            <li>A <b>for </b>loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+            <li>To comment out code in Javascript, use <b> / *</b> before and after the block of code</li>
+
+
+
           </ul>
         <br/>
       </section>
       <br/>
     </main>
 
-    <footer>
+    <footer>      
       <p>
       <br/>
         I can code!
       </p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
